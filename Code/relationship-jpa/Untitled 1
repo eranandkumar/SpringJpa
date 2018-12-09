@@ -1,0 +1,11 @@
+One To One Relationship --> One Student Can have One Passport.
+					    --> One Passport belongs to Only one Student.
+Approach --> We will add Passport_Id in Student Table 
+								OR We can add Student_Id in passport table.
+								
+If Student Table Contains Passprt_Id in Student table then we can say Student table is owning the relationship.
+
+By Default OneToOne is Eager Fetching.
+
+
+Lazy Fetching :- We will get the details only when its needed.
